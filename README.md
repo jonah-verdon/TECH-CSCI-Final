@@ -1,1 +1,1 @@
-# TECH-CSCI-Final
+Repo for final project
