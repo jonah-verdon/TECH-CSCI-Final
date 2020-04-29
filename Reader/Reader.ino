@@ -9,9 +9,5 @@ void setup(){
 
 void loop(){
   Number = analogRead(A0);
-  if (!((Number-Last>tol)||(Number-Last<(0-tol)))){
-    Number = Last;
-  }
-  Last = Number;
   Serial.println(Number);
 }
